@@ -2,8 +2,6 @@
 
 This repository contains your Fern Configuration:
 
-- [OpenAPI spec](./fern/openapi/external/universal-api-v1.yaml)
-- [OpenAPI Overrides](./fern/openapi/external/openapi-overrides.yml)
 - [SDK generator config](./fern/generators.yml)
 
 ## Setup
