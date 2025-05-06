@@ -6,7 +6,7 @@ groups:
         version: 2.35.1
         output:
           location: maven
-          coordinate: com.bloomberg:petstore
+          coordinate: com.petstore:petstore
         github:
           uri: https://github.com/fern-demo/plantstore-demo-java-sdk
           # token: <your-personal-access-token>
