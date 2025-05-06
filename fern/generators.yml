@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://schema.buildwithfern.dev/generators-yml.json
+groups:
+  java-sdk:
+    generators:
+      - name: fernapi/fern-java-sdk
+        version: 2.35.1
+        output:
+          location: maven
+          coordinate: com.bloomberg:petstore
+        github:
+          uri: https://github.com/fern-demo/plantstore-demo-java-sdk
+          # token: <your-personal-access-token>
+  python-sdk:
+    generators:
+      - name: fernapi/fern-python-sdk
+        version: 4.18.1
+        output:
+          location: pypi
+          package-name: petstore
+        github:
+          uri: https://github.com/fern-demo/plantstore-demo-python-sdk
+          # token: <your-personal-access-token>
