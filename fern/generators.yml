@@ -8,8 +8,8 @@ groups:
           location: maven
           coordinate: com.petstore:petstore
         github:
-          uri: https://github.com/fern-demo/plantstore-demo-java-sdk
-          # token: <your-personal-access-token>
+          repository: fern-demo/plantstore-demo-java-sdk
+        smart-casing: false
   python-sdk:
     generators:
       - name: fernapi/fern-python-sdk
@@ -18,5 +18,16 @@ groups:
           location: pypi
           package-name: petstore
         github:
-          uri: https://github.com/fern-demo/plantstore-demo-python-sdk
-          # token: <your-personal-access-token>
+          repository: fern-demo/plantstore-demo-python-sdk
+        smart-casing: false
+  ts-sdk:
+    generators:
+      - name: fernapi/fern-typescript-sdk
+        version: 3.35.8
+        github:
+          repository: fern-demo/plantstore-demo-typescript-sdk
+          # mode: pull-request
+        config:
+          namespaceExport: plantstore
+          # noSerde: false
+        smart-casing: false
