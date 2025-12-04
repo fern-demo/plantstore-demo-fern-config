@@ -29,5 +29,5 @@ groups:
           # mode: pull-request
         config:
           namespaceExport: plantstore
-          # noSerde: false
+          # noSerdeLayer: false
         smart-casing: false
